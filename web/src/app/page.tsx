@@ -39,8 +39,8 @@ export default function Home() {
               Sua cápsula do tempo
             </h1>
             <p className="text-lg leading-relaxed">
-              Colecione momentos marcantes da sua jornada e compartilhe (se
-              quiser) com o mundo!
+              Colecione momentos marcantes da sua jornada e compartilhe, se
+              quiser, com o mundo!
             </p>
           </div>
 
@@ -65,8 +65,10 @@ export default function Home() {
           </a>{' '}
           na NLW da{' '}
           <a
-            href="https://rocketseat.com"
+            href="https://rocketseat.com.br"
             className="underline transition-colors hover:text-gray-100"
+            target="_blank"
+            rel="noreferrer"
           >
             Rocketseat
           </a>
