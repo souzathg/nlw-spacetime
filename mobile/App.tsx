@@ -1,12 +1,6 @@
 import React from 'react'
 import { StatusBar } from 'expo-status-bar'
-import {
-  ImageBackground,
-  Text,
-  Touchable,
-  TouchableOpacity,
-  View,
-} from 'react-native'
+import { ImageBackground, Text, TouchableOpacity, View } from 'react-native'
 import { styled } from 'nativewind'
 
 import {
@@ -66,7 +60,7 @@ export default function App() {
       </View>
 
       <Text className="text-center font-body text-sm leading-relaxed text-gray-200">
-        Feito com amor no NLW da Rocketseat{' '}
+        Feito com 💜 pelo no NLW da Rocketseat{' '}
       </Text>
       <StatusBar style="light" translucent />
     </ImageBackground>
