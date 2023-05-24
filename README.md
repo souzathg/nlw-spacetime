@@ -29,6 +29,6 @@ Separarei o que pude aprender na construção dessa aplicação por seções
 ### Geral
 
 O aprendizado mais importante que pude tirar desse _bootcamp_ foi a criação de rotas autenticadas através de `oauth` integrado com o GitHub.
+Também pude aprender a decodificar um token JWT para utilizar os dados na página da aplicação
 
 🚧 Em construção 🚧
-
