@@ -78,6 +78,7 @@ export default function NewMemory() {
               </View>
               <View className="space-y-4 px-8">
                 <Image
+                  alt="Memory photo"
                   className="aspect-video w-full rounded-lg"
                   source={{
                     uri: memory.coverUrl,

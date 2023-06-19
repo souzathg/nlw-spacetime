@@ -12,7 +12,7 @@ import Icon from '@expo/vector-icons/Feather'
 import NLWLogo from '../src/assets/nlw-spacetime-logo.svg'
 import { Link, useRouter } from 'expo-router'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import * as ImagePicker from 'expo-image-picker'
 import * as SecureStore from 'expo-secure-store'
 import { api } from '../src/lib/api'
@@ -77,21 +77,6 @@ export default function NewMemory() {
 
     router.push('/memories')
   }
-
-  async function loadMemories() {
-    const token = await SecureStore.getItemAsync('token')
-    const response = await api.get('/memories', {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    })
-
-    console.log(response.data)
-  }
-
-  useEffect(() => {
-    loadMemories()
-  }, [])
 
   return (
     <ScrollView
