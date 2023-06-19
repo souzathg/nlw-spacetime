@@ -45,6 +45,7 @@ export default function NewMemoryForm() {
     )
 
     router.push('/')
+    router.refresh()
   }
 
   return (
